@@ -41,6 +41,8 @@ const storeSchema = new mongoose.Schema({
 })
 
 // Define our indexes
+storeSchema.index({ location: '2dsphere' });
+
 storeSchema.index({
   name: 'text', 
   description: 'text'
