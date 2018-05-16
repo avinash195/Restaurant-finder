@@ -1,27 +1,12 @@
-## What is this?
+## What is this ?
 
-Just you wait folks!
+It is a restaurant finding application with features like
+* Listing of stores to find along with description
+* Users can search Bars / Cafe's using map
+* User Ratings and reviews about the stores
+* Users can login and add stores, edit stores 
 
-## Sample Data
-
-To load sample data, run the following command in your terminal:
-
-```bash
-npm run sample
-```
-
-If you have previously loaded in this data, you can wipe your database 100% clean with:
-
-```bash
-npm run blowitallaway
-```
-
-That will populate 16 stores with 3 authors and 41 reviews. The logins for the authors are as follows:
-
-|Name|Email (login)|Password|
-|---|---|---|
-|Wes Bos|wes@example.com|wes|
-|Debbie Downer|debbie@example.com|debbie|
-|Beau|beau@example.com|beau|
-
-
+## To Run the Project 
+    1. clone the project.
+    2. run npm install
+    3. modify sample.variables.env file according to your configurations and name it to variables.env 
