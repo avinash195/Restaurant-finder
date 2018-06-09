@@ -1,2 +1,4 @@
 node_modules/
-variables_env/
+*.log
+variables.env
+variables.env.now
